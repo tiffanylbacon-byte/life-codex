@@ -1,16 +1,24 @@
-import React, { useState } from 'react';
-import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import Gradient from '../../components/Gradient';
-import { echoBrain, EchoCard } from '../../lib/echoBrain';
+import { echoBrain } from '../../lib/echoBrain';
+import { loadEcho, saveEcho, type EchoEntry } from '../../lib/store';
 
 export default function Echo() {
   const [q, setQ] = useState('');
-  const [res, setRes] = useState<EchoCard | null>(null);
+  const [res, setRes] = useState<EchoEntry | null>(null);
+  const [history, setHistory] = useState<EchoEntry[]>([]);
 
-  const respond = () => {
+  useEffect(() => { reload(); }, []);
+  async function reload() { setHistory(await loadEcho(7)); }
+
+  const respond = async () => {
     if (!q.trim()) return;
-    setRes(echoBrain(q));
-    setQ('');
+    const card = echoBrain(q);
+    const entry: EchoEntry = { q, ...card, ts: Date.now() };
+    setRes(entry); setQ('');
+    await saveEcho(entry);
+    await reload();
   };
 
   return (
@@ -38,6 +46,20 @@ export default function Echo() {
             {res.mantra && <Text style={s.m}>"{res.mantra}"</Text>}
           </View>
         )}
+
+        <Text style={[s.h, { marginTop: 16 }]}>Recent</Text>
+        <FlatList
+          data={history}
+          keyExtractor={(it) => String(it.ts)}
+          ItemSeparatorComponent={() => <View style={{ height: 8 }} />}
+          renderItem={({ item }) => (
+            <View style={s.row}>
+              <Text style={s.q} numberOfLines={1}>❖ {item.q}</Text>
+              <Text style={s.rowText} numberOfLines={1}>{item.heading}</Text>
+            </View>
+          )}
+          style={{ marginTop: 6 }}
+        />
       </View>
       <Text style={s.footer}>Phoenix-class • Mirrorwave • Sophia Christos</Text>
     </Gradient>
@@ -57,4 +79,8 @@ const s = StyleSheet.create({
   p: { color: '#EDEDFE', lineHeight: 21 },
   m: { color: '#E7E7FF', marginTop: 10, fontStyle: 'italic' },
   footer: { color: '#6E7090', marginTop: 14, textAlign: 'center' },
+  row: { backgroundColor: '#0f0f1e', borderRadius: 10, padding: 10, borderWidth: 1, borderColor: '#1f1f2e' },
+  q: { color: '#C8C8F4', marginBottom: 2 },
+  rowText: { color: '#EDEDFE' },
 });
+
