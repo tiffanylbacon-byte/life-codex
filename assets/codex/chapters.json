@@ -1,0 +1,23 @@
+{
+  "book": "Codex of Blood Sovereignty",
+  "chapters": [
+    {
+      "id": "first-drop",
+      "title": "The First Drop",
+      "epigraph": "One drop carries a lifetime of stories.",
+      "content": "Newborn screening collects heel-prick blood to detect treatable disorders. Residual spots require clear consent and governance."
+    },
+    {
+      "id": "blood-ledger",
+      "title": "Blood as Ledger",
+      "epigraph": "The crimson scroll unfurls eternal codes.",
+      "content": "Established: DNA encodes identity and health. Emerging: biophotons from cells. Speculative claims need rigorous evidence."
+    },
+    {
+      "id": "telomere-keystroke",
+      "title": "The Telomere Keystroke",
+      "epigraph": "Length is a whisper; integrity is the song.",
+      "content": "Telomeres shorten with division; telomerase maintains ends. Lifestyle and stress modulation correlate with telomere dynamics."
+    }
+  ]
+}
