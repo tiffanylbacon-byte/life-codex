@@ -15,4 +15,6 @@ export async function saveEcho(e: EchoEntry) {
   const arr: EchoEntry[] = raw ? JSON.parse(raw) : [];
   arr.push(e);
   await AsyncStorage.setItem(KEY, JSON.stringify(arr));
+export async function clearEcho() {
+  await AsyncStorage.removeItem('@echo_history');
 }
