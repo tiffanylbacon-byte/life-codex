@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LifeCodexEntry",
+  "type": "object",
+  "required": ["id", "title", "file"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "file": { "type": "string" },
+    "locale": { "type": "string" }
+  }
+}

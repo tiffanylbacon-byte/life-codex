@@ -1,0 +1,16 @@
+version: 1
+books:
+  - id: codex-blood-sovereignty
+    title: Codex of Blood Sovereignty
+    chapters:
+      - id: first-drop
+        file: content/chapters/first-drop.md
+      - id: blood-ledger
+        file: content/chapters/blood-ledger.md
+audio_presets:
+  - id: phoenix_528
+    hz: 528
+    file: assets/audio/phoenix_528.mp3
+  - id: oversoul_963
+    hz: 963
+    file: assets/audio/oversoul_963.mp3

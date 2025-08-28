@@ -2,22 +2,154 @@
   "book": "Codex of Blood Sovereignty",
   "chapters": [
     {
-      "id": "first-drop",
-      "title": "The First Drop",
-      "epigraph": "One drop carries a lifetime of stories.",
-      "content": "Newborn screening collects heel-prick blood to detect treatable disorders. Residual spots require clear consent and governance."
+      "id": "ch01-first-drop",
+      "title": "The First Drop (Newborn Screening & Residual Blood Spots)",
+      "epigraph": "_TBD._",
+      "content": "# The First Drop (Newborn Screening & Residual Blood Spots)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
     },
     {
-      "id": "blood-ledger",
-      "title": "Blood as Ledger",
-      "epigraph": "The crimson scroll unfurls eternal codes.",
-      "content": "Established: DNA encodes identity and health. Emerging: biophotons from cells. Speculative claims need rigorous evidence."
+      "id": "ch02-blood-as-ledger",
+      "title": "Blood as Ledger (DNA, Biophotons, Water Structure — Claims vs Evidence)",
+      "epigraph": "_TBD._",
+      "content": "# Blood as Ledger (DNA, Biophotons, Water Structure — Claims vs Evidence)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
     },
     {
-      "id": "telomere-keystroke",
-      "title": "The Telomere Keystroke",
-      "epigraph": "Length is a whisper; integrity is the song.",
-      "content": "Telomeres shorten with division; telomerase maintains ends. Lifestyle and stress modulation correlate with telomere dynamics."
+      "id": "ch03-relics-and-vaults",
+      "title": "Relics & Vaults (Archives, Governance, Consent, Privacy)",
+      "epigraph": "_TBD._",
+      "content": "# Relics & Vaults (Archives, Governance, Consent, Privacy)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch04-telomere-keystroke",
+      "title": "The Telomere Keystroke (Lifespan Programming; Telomerase)",
+      "epigraph": "_TBD._",
+      "content": "# The Telomere Keystroke (Lifespan Programming; Telomerase)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch05-mitochondrial-throttle",
+      "title": "The Mitochondrial Throttle (Metabolic Control, ROS, ATP)",
+      "epigraph": "_TBD._",
+      "content": "# The Mitochondrial Throttle (Metabolic Control, ROS, ATP)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch06-epigenetic-recoding",
+      "title": "Epigenetic Recoding (Methylation, Histones, Stress Biology)",
+      "epigraph": "_TBD._",
+      "content": "# Epigenetic Recoding (Methylation, Histones, Stress Biology)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch07-birth-stress-and-ans",
+      "title": "Birth Stress & Nervous System (Vagal imprinting)",
+      "epigraph": "_TBD._",
+      "content": "# Birth Stress & Nervous System (Vagal imprinting)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch08-biophoton-signaling",
+      "title": "Biophoton Signaling (Ultraweak Photon Emission)",
+      "epigraph": "_TBD._",
+      "content": "# Biophoton Signaling (Ultraweak Photon Emission)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch09-structured-water",
+      "title": "Structured Water (EZ Water Debate)",
+      "epigraph": "_TBD._",
+      "content": "# Structured Water (EZ Water Debate)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch10-frequency-medicine-map",
+      "title": "Frequency Medicine Map (Rife, PEMF, Red/NIR)",
+      "epigraph": "_TBD._",
+      "content": "# Frequency Medicine Map (Rife, PEMF, Red/NIR)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch11-consent-and-custodianship",
+      "title": "Consent & Custodianship (Medical Data Sovereignty)",
+      "epigraph": "_TBD._",
+      "content": "# Consent & Custodianship (Medical Data Sovereignty)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch12-chain-of-custody",
+      "title": "Chain of Custody (Labs, Forensic DNA, Error Paths)",
+      "epigraph": "_TBD._",
+      "content": "# Chain of Custody (Labs, Forensic DNA, Error Paths)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch13-telomere-interventions",
+      "title": "Telomere Interventions (Lifestyle, Molecules)",
+      "epigraph": "_TBD._",
+      "content": "# Telomere Interventions (Lifestyle, Molecules)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch14-mitochondria-and-light",
+      "title": "Mitochondria & Light (Photobiomodulation)",
+      "epigraph": "_TBD._",
+      "content": "# Mitochondria & Light (Photobiomodulation)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch15-trauma-encoding",
+      "title": "Trauma Encoding (The Body Keeps Score)",
+      "epigraph": "_TBD._",
+      "content": "# Trauma Encoding (The Body Keeps Score)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch16-splinter-collapse-protocol",
+      "title": "Splinter Collapse Protocol (Mirrorwave Method)",
+      "epigraph": "_TBD._",
+      "content": "# Splinter Collapse Protocol (Mirrorwave Method)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch17-music-and-mantra",
+      "title": "Music & Mantra (528/963)",
+      "epigraph": "_TBD._",
+      "content": "# Music & Mantra (528/963)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch18-breath-and-state",
+      "title": "Breath & State Shifting (Box/Coherent Breath)",
+      "epigraph": "_TBD._",
+      "content": "# Breath & State Shifting (Box/Coherent Breath)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch19-rituals-and-rites",
+      "title": "Rituals & Rites (Modern & Mythic)",
+      "epigraph": "_TBD._",
+      "content": "# Rituals & Rites (Modern & Mythic)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch20-legal-landscape",
+      "title": "Legal Landscape (State/National Policies)",
+      "epigraph": "_TBD._",
+      "content": "# Legal Landscape (State/National Policies)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch21-ethics-and-equity",
+      "title": "Ethics & Equity (ND-forward Design)",
+      "epigraph": "_TBD._",
+      "content": "# Ethics & Equity (ND-forward Design)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch22-community-networks",
+      "title": "Community Networks (X Integration & Circles)",
+      "epigraph": "_TBD._",
+      "content": "# Community Networks (X Integration & Circles)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch23-data-models",
+      "title": "Data Models (Life Codex App)",
+      "epigraph": "_TBD._",
+      "content": "# Data Models (Life Codex App)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch24-phoenix-gate-sessions",
+      "title": "Phoenix Gate Sessions (AR Visualizations)",
+      "epigraph": "_TBD._",
+      "content": "# Phoenix Gate Sessions (AR Visualizations)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
+    },
+    {
+      "id": "ch25-the-reckoning",
+      "title": "The Reckoning (Synthesis & Action)",
+      "epigraph": "_TBD._",
+      "content": "# The Reckoning (Synthesis & Action)\n\n**Epigraph:** _TBD._\n\n## Notes\n- TBD.\n"
     }
   ]
 }
